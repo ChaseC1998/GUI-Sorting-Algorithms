@@ -77,9 +77,9 @@ namespace Sort_O_Matic
                         k = j;
                     }
                 Swap(i, k);
-                //delay(1000);              Couldn't figure out how to make the time work for pauses in the sort so the user can see the switch in the array that occured each step.
-            }                               //Same situation with the other lines with delay(1000). Also had the viewmodel fields set equal to the indexes of the array to update them
-        }                                   //in between each step of the sort, but because I couldn't make the pause work, I just moved the field updates for the window down to the action listeners.
+                //delay(1000);              
+            }                               
+        }                                   
 
         void Swap(int i, int j)
         {
@@ -243,7 +243,7 @@ namespace Sort_O_Matic
         }
 
         private static void delay(int Time_delay)           //Got the code for the delay method from https://stackoverflow.com/questions/18372355/how-can-i-perform-a-short-delay-in-c-sharp-without-using-sleep 
-        {                                                   //This is the only code that I am using I got from an outside source.
+        {                                                   
             int i = 0;
             _delayTimer = new System.Timers.Timer();
             _delayTimer.Interval = Time_delay;
