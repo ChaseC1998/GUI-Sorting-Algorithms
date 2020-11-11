@@ -1,0 +1,36 @@
+﻿<Window x:Class="Sort_O_Matic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sort_O_Matic"
+        mc:Ignorable="d"
+        Title="Sort-O-Matic" Height="450" Width="800" ResizeMode="NoResize">
+
+    <Grid Background="#FFE6E6E6" x:Name="myGrid">
+        <Button Background="#FFFFF9" Content="Quick Sort" HorizontalAlignment="Left" Height="40" Margin="99,261,0,0" VerticalAlignment="Top" Width="89" Click="QuickButton_Click"/>
+        <Button Background="#FFFFF9" Content="Selection Sort" HorizontalAlignment="Left" Height="40" Margin="210,261,0,0" VerticalAlignment="Top" Width="89" Click="SelectionButton_Click" RenderTransformOrigin="0.534,-0.184"/>
+        <Button Background="#FFFFF9" Content="Insertion Sort" HorizontalAlignment="Left" Height="40" Margin="320,261,0,0" VerticalAlignment="Top" Width="89" Click="InsertionButton_Click"/>
+        <Button Background="#FFFFF9" Content="About" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="654,342,0,0" Height="40" Click="AboutButton_Click" RenderTransformOrigin="0.48,0.092"/>
+        <Button Background="#FFFFF9" Content="Make Array" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Height="40" Margin="531,342,0,0" Click="MakeButton_Click"/>
+        <Button Background="#FFFFF9" Content="Quick Sort" HorizontalAlignment="Left" Height="40" Margin="99,342,0,0" VerticalAlignment="Top" Width="89" Click="QuickDesButton_Click"/>
+        <Button Background="#FFFFF9" Content="Selection Sort" HorizontalAlignment="Left" Height="40" Margin="210,342,0,0" VerticalAlignment="Top" Width="89" Click="SelectionDesButton_Click" RenderTransformOrigin="0.534,-0.184"/>
+        <Button Background="#FFFFF9" Content="Insertion Sort" HorizontalAlignment="Left" Height="40" Margin="320,342,0,0" VerticalAlignment="Top" Width="89" Click="InsertionDesButton_Click"/>
+
+        <Label Content="{Binding Index0}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="99,100,0,0" Height="42" Width="41" FontSize="20" />
+        <Label Content="{Binding Index1}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index2}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="223,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index3}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index4}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,100,0,0" Height="42" Width="41" FontSize="20" RenderTransformOrigin="0.701,0.492"/>
+        <Label Content="{Binding Index5}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index6}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="483,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index7}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="543,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index8}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="603,100,0,0" Height="42" Width="41" FontSize="20"/>
+        <Label Content="{Binding Index9}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="665,100,0,0" Height="42" Width="41" FontSize="20"/>
+
+        <TextBox Background="#FFE6E6E6" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Ascending:" VerticalAlignment="Top" Width="73" Margin="10,270,0,0" BorderBrush="#FFE6E6E6"/>
+        <TextBox Background="#FFE6E6E6" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Descending:" VerticalAlignment="Top" Width="73" Margin="10,350,0,0" BorderBrush="#FFE6E6E6"/>
+
+    </Grid>
+
+</Window>

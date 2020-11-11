@@ -1,0 +1,16 @@
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\bin\Debug\Sort-O-Matic.exe.config
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\bin\Debug\Sort-O-Matic.exe
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\bin\Debug\Sort-O-Matic.pdb
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic.csprojAssemblyReference.cache
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\MainWindow.g.cs
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\App.g.cs
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic_MarkupCompile.cache
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic_MarkupCompile.lref
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\MainWindow.baml
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic.g.resources
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort_O_Matic.Properties.Resources.resources
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic.csproj.GenerateResource.cache
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic.exe
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\Sort-O-Matic.pdb
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\AboutWindow.g.cs
+C:\Users\VR\source\repos\Sort-O-Matic\Sort-O-Matic\obj\Debug\AboutWindow.baml

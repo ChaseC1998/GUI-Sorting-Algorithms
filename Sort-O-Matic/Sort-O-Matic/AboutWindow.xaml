@@ -1,0 +1,15 @@
+﻿<Window x:Class="Sort_O_Matic.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sort_O_Matic"
+        mc:Ignorable="d"
+        Title="About" Height="408.667" Width="300">
+    <Grid Background="#FFE6E6E6">
+        <Label Content="Developer:&#x9;&#x9;Chase Christiansen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,10,0,0" Width="261" Background="#FFFFF9"/>
+        <Label Content="Version:&#x9;&#x9;&#x9;                        1.0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,41,0,0" Width="261" Background="#FFFFF9"/>
+        <Label Content="Program Usage:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,101,0,0" Width="141" Background="#FFFFF9"/>
+        <Label Content="This program is a program to run various &#xA;sorting algorithms on an array set to a size of&#xA;10, and then display the contents of each &#xA;index on the window as they change. To &#xA;choose the sort you want to use on the array, &#xA;click the button with the name of the sorting &#xA;algorithm on it. There are two buttons per &#xD;&#xA;sorting algorithm, one for ascending order &#xD;&#xA;and one for descending order." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,138,0,0" Height="217" Width="260" Background="#FFFFF9" BorderBrush="#FFC4E7F1"/>
+    </Grid>
+</Window>
